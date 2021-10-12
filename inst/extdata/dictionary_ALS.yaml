@@ -1,0 +1,11 @@
+Parameter:
+  "Malning stålfat": "steel plate grinding"
+  "TS innan lakning": "TS before leaching"
+  "Invägning": "Weigh-in"
+  "Volym tillsatt": "Volume added"
+  "Volym efter filtrering": "Volume after filtration"
+Result:
+  "ja": "Yes"
+
+Unit:
+  "ArbMom": "Work activity"

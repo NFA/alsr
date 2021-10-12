@@ -1,0 +1,35 @@
+Package: alsr
+Type: Package
+Title: Reading of ALS result reports into dataframe
+Version: 0.1.0
+Author: Fredrik Nyström
+Maintainer: Fredrik Nyström <nfa106@gmail.com>
+Description: Parses result data from ALS Scandinavia PDF reports.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends:
+   cli,
+   pander,
+   pdftools,
+   stringr,
+   readr,
+   magrittr,
+   lubridate,
+   tibble,
+   dplyr
+Suggests:
+    labelmachine,
+    testthat
+RoxygenNote: 7.1.1
+Collate: 
+    'ALSReport-class.R'
+    'ALSReport-V1.R'
+    'ALSReport-V2.R'
+    'GBAReport.R'
+    'als_utils.r'
+    'pdf_utils.R'
+    'read_ALS.R'
+    'testing.R'
+    'translation.R'
+    'utils.R'
